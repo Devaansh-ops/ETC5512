@@ -16,16 +16,19 @@ When you click the **Render** button a document will be generated that includes 
 1 + 1
 ```
 
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
-
 ```{r}
 # Calculate the sum of 1 to 10
 sum(1:20)
+
+
+```
+
+This is the file before creating a new branch (testbranch).
+
+```{r}
+# New Section in Test Branch
+
+# Calculating the mean of a vector
+
+mean(c(10, 20, 30, 40, 50))
 ```
