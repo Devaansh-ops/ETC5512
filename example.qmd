@@ -27,5 +27,11 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 ```{r}
 # Calculate the sum of 1 to 10
-sum(1:20)
+sum(1:10)
+```
+
+```{r}
+#Alternate section in main branch creating conflict
+# Calculate the standard deviation of a vector
+sd(c(10, 20, 30, 40, 50))
 ```
